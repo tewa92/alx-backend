@@ -1,8 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+''' BasicCache class that inherits from BaseCaching and is a caching system '''
 from base_caching import BaseCaching
 
 
-class BasicCache(base_caching.BaseCaching):
+class BasicCache(BaseCaching):
     """ BasicCache inherits from BaseCaching
     """
     def put(self, key, item):
